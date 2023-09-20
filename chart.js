@@ -244,7 +244,8 @@ var options = {
     }],
     chart: {
         type: 'candlestick',
-        height: 350
+        height: 350,
+        width: '50%'
     },
     title: {
         text: 'CandleStick Chart',

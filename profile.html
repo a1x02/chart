@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфель</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body class="page">
+<header class="header">
+  <h1 class="header__logo">LOGO.inc</h1>
+  <div class="header__links">
+    <a class="header__link" style="text-decoration: underline" href="profile.html">Портфель</a>
+    <a class="header__link" href="market.html">Рыночная аналитика</a>
+    <a href="#" class="header__link">Войти</a>
+  </div>
+</header>
+<main>
+  <h2 class="info__title">Ваш портфель</h2>
+  <div class="info__container">
+    <div class="info__description-container">
+      <h3 class="info__semititle">Стоимость:</h3>
+      <p class="info__description">104 231,43 &#x20bd;</p>
+    </div>
+    <div class="info__description-container">
+      <h3 class="info__semititle">За все время:</h3>
+      <p class="info__description info__description_profit">+17 221,21 &#x20bd;</p>
+    </div>
+  </div>
+  <div class="profile__chart-container">
+    <div id="profile-chart"></div>
+  </div>
+</main>
+<footer>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="profileChart.js"></script>
+</body>
+</html>
