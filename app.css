@@ -1,0 +1,9 @@
+.chart-container {
+    width: 50%;
+    margin: 150px auto 0;
+}
+
+.chart {
+    border: 2px solid black;
+    border-radius: 15px;
+}
