@@ -19,8 +19,8 @@ body {
 }
 
 .header__logo {
-    margin: auto 0 auto 30px;
-    font-family: 'Inter', sans-serif;
+    margin: auto 0 auto 3vh;
+    height: 30%;
     cursor: pointer;
 }
 
