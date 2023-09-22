@@ -191,13 +191,14 @@ main {
 }
 
 .item {
-    border-bottom: 1px solid #3e3e87;
+    /*border-bottom: 1px solid #3e3e87;*/
     width: 90%;
     display: flex;
     position: relative;
     height: 50px;
     margin-bottom: 2vh;
     cursor: pointer;
+    border: 1px solid red;
 }
 
 .item__logo {
@@ -210,6 +211,7 @@ main {
     position: relative;
     display: block;
     margin: auto 0 auto 1vh;
+    border: 1px solid blue;
 }
 
 .item__name {
