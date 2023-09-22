@@ -198,7 +198,6 @@ main {
     height: 50px;
     margin-bottom: 2vh;
     cursor: pointer;
-    border: 1px solid red;
 }
 
 .item__logo {
@@ -211,7 +210,7 @@ main {
     position: relative;
     display: block;
     margin: auto 0 auto 1vh;
-    border: 1px solid blue;
+    height: 100%;
 }
 
 .item__name {
