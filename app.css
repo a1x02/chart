@@ -216,7 +216,7 @@ main {
 .item__name {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    margin-bottom: 1vh;
+    margin: 0 0 1vh 0;
 }
 
 .item__yield {
