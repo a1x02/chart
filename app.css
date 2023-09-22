@@ -191,7 +191,7 @@ main {
 }
 
 .item {
-    /*border-bottom: 1px solid #3e3e87;*/
+    border-bottom: 1px solid #3e3e87;
     width: 90%;
     display: flex;
     position: relative;
