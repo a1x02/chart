@@ -123,7 +123,7 @@ main {
     width: 90%;
     border: none;
     border-bottom: 2px solid #3e3e87;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     font-family: 'Inter', sans-serif;
     padding-left: 5px;
@@ -272,5 +272,7 @@ main {
 }
 
 .stock__button_sell {
-    background-color: #d90f00;
+    border: 2px solid #3e3e87;
+    color: #3e3e87;
+    background: none;
 }
